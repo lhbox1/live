@@ -1,9 +1,9 @@
 name: Fetch Remote IP Data
 
-on:
-  schedule:
-    - cron: '0 18 * * *'  # 每天北京时间凌晨2点 (UTC 18:00)
-    - cron: '30 0 * * *'  # 每天北京时间上午8点00分 (UTC 0:30)
+于:
+ # schedule:
+ #   - cron: '0 18 * * *'  # 每天北京时间凌晨2点 (UTC 18:00)
+ #   - cron: '30 0 * * *'  # 每天北京时间上午8点00分 (UTC 0:30)
   workflow_dispatch:      # 允许手动触发
 
 jobs:
